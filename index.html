@@ -9,11 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">     
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Piazzolla:opsz,wght@8..30,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <title></title>
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>HollowShop</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -43,14 +41,14 @@
         </section>       
             <!-- Productos por categoria(cambiar) -->
         <section id="articleDos">
-            <div class="container">
-                <div class="categorias">
-                    <div class="carta animate__animated animate__fadeInLeft"> <a href="Pages/productos.html"> cuadros </a> </div>
-                    <div class="carta animate__animated animate__fadeInRight"> <a href="Pages/productos.html"> Peluches </a> </div>
-                    <div class="carta animate__animated animate__fadeInLeft"> <a href="Pages/productos.html"> Figuras </a>  </div>
-                    <div class="carta animate__animated animate__fadeInRight"> <a href="Pages/productos.html"> Ropa </a>  </div>
-                </div>  
-            </div>    
+            <div class="container text-center categorias">
+                <div class="row row-cols-2 ">
+                  <div class="col carta animate__animated animate__slideInLeft"> <a href="Pages/productos.html"> cuadros </a></div>
+                  <div class="col carta animate__animated animate__slideInLeft"> <a href="Pages/productos.html"> Peluches </a></div>
+                  <div class="col carta animate__animated animate__slideInRight" > <a href="Pages/productos.html"> Figuras </a> </div>
+                  <div class="col carta animate__animated animate__slideInRight"> <a href="Pages/productos.html"> Ropa </a> </div>
+                </div>
+              </div>
         </section>    
     </main>
 
@@ -68,13 +66,14 @@
                         </ul>
                     </div>
                         <div class="Redes">
-                            <img width="130px" src="Img/InstagramLogo.jpg" alt="InstagramLogo" >
-                            <img src="Img/FacebookLogo.png" alt="FacebookLogo" class="logo"  width="100">
-                            <img src="img/gmail.png" alt="GmailLogo" class="logoG"  width="80">   
+                            <img src="../Img/InstagramLogo.jpg" alt="InstagramLogo" class="logoI"  width="130px" >
+                            <img src="../Img/FacebookLogo.png" alt="FacebookLogo" class="logo">
+                            <img src="../img/gmail.png" alt="GmailLogo" class="logoG">  
                         </div>          
                 </div>  
             </div>           
     </footer>
+    <script src="./js/bootstrap.min.js"> </script>
 </div>
 </body>
 </html>
