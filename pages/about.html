@@ -19,52 +19,77 @@
         <div class="container">
             <img src="../Img/Icon.png" alt="Logo" width="100" height="100" class="menuIcon">
             <h1 class="menuTitle"> HOLLOW<span class="animate__animated animate__rotateInDownRight spanText">SHOP</span> </h1>
-            <nav>
-                <a class="menuText" href="../Index.html"> Inicio</a>
-                <a class="menuText" href="../Pages/about.html"> Nosotros</a>
-                <a class="menuText" href="../Pages/productos.html"> Productos</a>
-                <a class="menuText" href="../Pages/contacto.html"> Contacto</a>
-            </nav>
+            <nav class="navbar navbar-expand">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                          <a class="navbar menuText" href="../Index.html"> Inicio</a>
+                        </li>
+                        <li class="nav-item"> 
+                          <a class="nav-link active menuText" href="../Pages/about.html"> Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menuText" href="../Pages/productos.html"> Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menuText" href="../Pages/contacto.html"> Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
         </div>
     </header>
 
     <main id="mainAbout">
         <section id="section">
-            <article class="about">
-                <img src="../Img/grupoHollow.webp" alt="Logo" class="aboutImg">
-                <h2>Sobre Nosotros</h2>
-                <p class="aboutText">Lorem ipsum, dolor sit amet consectetur adipisicing 
-                    elit. Eius a illo necessitatibus cupiditate aspernatur laudantium 
-                    ducimus, quis ut magnam eum expedita consequuntur incidunt minus. 
-                    Velit dolorum possimus saepe consequuntur dolor ullam nobis nihil 
-                    ipsum praesentium odit, tempora iure necessitatibus facilis consequatur
-                     blanditiis numquam expedita totam ratione. Sunt ut cumque voluptates.
-                    In error placeat aperiam praesentium fugit explicabo corrupti 
-                    adipisci quam, exercitationem, quos cum minima maxime et temporibus 
-                    est voluptatum, rem quod! Eum tenetur, maiores, recusandae cum, <br>
-                    dignissimos quasi quod debitis inventore iusto aut consequatur 
-                    sed a sit dolorum repellat amet impedit distinctio! Commodi autem 
-                    blanditiis, adipisci enim nemo sit obcaecati vel, architecto sed 
-                    vero distinctio magni veritatis placeat consectetur natus voluptatum,
-                    quisquam unde illo explicabo aliquid dignissimos! Possimus nisi alias
-                    consequuntur amet consectetur itaque repellat expedita eligendi enim,
-                    odio tempora quia iste veniam ullam, porro vel recusandae! Cum,
-                    at vitae impedit aperiam enim tenetur harum deleniti, 
-                    veniam voluptatem illo saepe ullam! Soluta accusantium
-                    in accusamus iusto laboriosam perspiciatis voluptate veritatis autem,
-                    error delectus at officiis distinctio sed consequuntur odio aliquid corporis.
-                    Laboriosam sapiente fugit quisquam ducimus. Sed obcaecati repellendus nisi nulla modi.
-                    A temporibus laboriosam perferendis odit incidunt adipisci earum, tempore cum similique
-                    labore veritatis est accusamus saepe sunt ea ad accusantium unde totam iure,
-                    quis magni placeat modi. Quod aspernatur beatae dignissimos vero repudiandae,
-                    velit alias optio nisi repellat obcaecati? Harum laborum mollitia velit perspiciatis
-                    minus perferendis porro ex praesentium molestiae, maiores impedit incidunt voluptas 
-                    modi at ratione hic corporis tempora laboriosam excepturi! Ullam vitae, reiciendis 
-                    corporis amet iusto rem voluptatem animi laborum eos perferendis, inventore doloribus. 
-                    Ullam nobis molestiae rerum ipsam natus, nisi hic iste neque sed assumenda sequi 
-                    voluptatem officia molestias beatae dolorem a. Praesentium exercitationem illum ratione 
-                    delectus, veniam dicta! Incidunt, fuga voluptatibus. Tempore perferendis atque 
-                    voluptatibus eos, sapiente modi reprehenderit quod quidem, odit est eaque!</p>
+            <div class="container text-center">
+                <div class="row align-items-start">
+                    <article class="about">
+                        <img src="../Img/grupoHollow.webp" alt="Logo" class="aboutImg">
+                        <h2>Sobre Nosotros</h2>
+                        <p class="aboutText">Lorem ipsum, dolor sit amet consectetur adipisicing 
+                            elit. Eius a illo necessitatibus cupiditate aspernatur laudantium 
+                            ducimus, quis ut magnam eum expedita consequuntur incidunt minus. 
+                            Velit dolorum possimus saepe consequuntur dolor ullam nobis nihil 
+                            ipsum praesentium odit, tempora iure necessitatibus facilis consequatur
+                            blanditiis numquam expedita totam ratione. Sunt ut cumque voluptates.
+                            In error placeat aperiam praesentium fugit explicabo corrupti 
+                            adipisci quam, exercitationem, quos cum minima maxime et temporibus 
+                            est voluptatum, rem quod! Eum tenetur, maiores, recusandae cum, <br>
+                            dignissimos quasi quod debitis inventore iusto aut consequatur 
+                            sed a sit dolorum repellat amet impedit distinctio! Commodi autem 
+                            blanditiis, adipisci enim nemo sit obcaecati vel, architecto sed 
+                            vero distinctio magni veritatis placeat consectetur natus voluptatum,
+                            quisquam unde illo explicabo aliquid dignissimos! Possimus nisi alias
+                            consequuntur amet consectetur itaque repellat expedita eligendi enim,
+                            odio tempora quia iste veniam ullam, porro vel recusandae! Cum,
+                            at vitae impedit aperiam enim tenetur harum deleniti, 
+                            veniam voluptatem illo saepe ullam! Soluta accusantium
+                            in accusamus iusto laboriosam perspiciatis voluptate veritatis autem,
+                            error delectus at officiis distinctio sed consequuntur odio aliquid corporis.
+                            Laboriosam sapiente fugit quisquam ducimus. Sed obcaecati repellendus nisi nulla modi.
+                            A temporibus laboriosam perferendis odit incidunt adipisci earum, tempore cum similique
+                            labore veritatis est accusamus saepe sunt ea ad accusantium unde totam iure,
+                            quis magni placeat modi. Quod aspernatur beatae dignissimos vero repudiandae,
+                            velit alias optio nisi repellat obcaecati? Harum laborum mollitia velit perspiciatis
+                            minus perferendis porro ex praesentium molestiae, maiores impedit incidunt voluptas 
+                            modi at ratione hic corporis tempora laboriosam excepturi! Ullam vitae, reiciendis 
+                            corporis amet iusto rem voluptatem animi laborum eos perferendis, inventore doloribus. 
+                            Ullam nobis molestiae rerum ipsam natus, nisi hic iste neque sed assumenda sequi 
+                            voluptatem officia molestias beatae dolorem a. Praesentium exercitationem illum ratione 
+                            delectus, veniam dicta! Incidunt, fuga voluptatibus. Tempore perferendis atque 
+                            voluptatibus eos, sapiente modi reprehenderit quod quidem, odit est eaque!</p>
+                </div> 
+            </div>           
             </article> 
         </section>
     </main>
@@ -88,7 +113,7 @@
                 </div>          
         </div>         
 </footer>
-
+<script src="../js/bootstrap.min.js"> </script>
 </div>
 </body>
 </html>

@@ -54,11 +54,30 @@ header .container{
     align-items: center;
     padding-bottom: 20px;  
 }
-nav {
+
+.navbar{
+    display: flex;
+    background-color: rgb(25, 05, 50);
+    border-radius: 10px;
+    flex-direction: row;
+}
+#navbarSupportedContent{
     display:flex;
     flex-direction: column;
+}
+
+nav {
+    display:flex;
+    flex-direction: row;
     padding-bottom: 20px;  
-    align-items: center;
+    justify-content: flex-start;
+    background-color: #15003b;
+    
+}
+.btn-outline-success{
+    color: white;
+    border: 1px solid;
+
 }
 
 .menuTitle{
@@ -462,15 +481,26 @@ span{
         padding-bottom: 20px; 
     }
 
+    .navbar{
+        background-color: rgb(25, 05, 50);
+        border-radius: 10px;
+    }
+
+    }
 
     nav {
         display:flex;
         flex-direction: row;
         padding-bottom: 20px;  
         justify-content: flex-start;
+        background-color: #15003b;
         
     }
-    
+    .btn-outline-success{
+        color: white;
+        border: 1px solid;
+
+    }
     .menuText{
         color: white;
         font-size: 1.2em;
@@ -643,6 +673,7 @@ span{
     
     }
     .articleC {
+        min-height: 1400px;
         width: 800px;
         background: #15003b;
         padding: 30px;
@@ -672,7 +703,7 @@ span{
       }
       
       .formInput {
-        width: 100%;
+        width: 600px;
         background: #24303c;
         padding: 10px;
         border-radius: 4px;
@@ -702,6 +733,7 @@ span{
       }
       
       .articleC .botons {
+
         width: 100%;
         background: #1f53c5;
         border: none;
@@ -714,7 +746,8 @@ span{
         display: flex;
         justify-content: center;
         justify-items: center;
-        width: 100%;
+        min-height: 200px;
+        min-width: 600px;
         margin-left: 40px;
         margin-bottom: 40px;
         background: #24303c;
@@ -855,5 +888,24 @@ footer a{
     #caracteristicas{
         background-position-x: calc(100vw - 800px);
     }
-}
+    .navbar{
+        background-color: rgb(25, 05, 50);
+        border-radius: 10px;
+    }
+    }
+
+    nav {
+        display:flex;
+        flex-direction: row;
+        padding-bottom: 20px;  
+        justify-content: flex-start;
+        background-color: #15003b;
+        
+    }
+    .btn-outline-success{
+        color: white;
+        border: 1px solid;
+
+    }
+
 /*Animaciones*/
