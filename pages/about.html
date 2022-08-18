@@ -24,7 +24,7 @@
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <div class="collapse navbar-collapse navegador" id="navbarSupportedContent">
                     <ul class="navbar-nav ">
                         <li class="nav-item">
                           <a class="navbar menuText" href="../Index.html"> Inicio</a>
@@ -95,24 +95,33 @@
     </main>
 
     <footer>
-        <div class="footerContainer">
-            <div class="footerMenu">
-                <img src="../Img/Icon.png" alt="Logo" width="160" height="160" class="footerIcon">
-                <ul class="footerItems">
-                    <li class="footerItem"> <a class="footerText" href="../Index.html"> Inicio</a> </li>
-            <li class="footerItem"> <a class="footerText" href="../Pages/about.html"> Nosotros</a> </li>
-            <li class="footerItem"> <a class="footerText" href="../Pages/productos.html"> Productos</a> </li>
-            <li class="footerItem"> <a class="footerText" href="../Pages/contacto.html"> Contacto</a> </li>
-            <li class="footerItem"> <a class="footerText" class="footerText" href="../Pages/FAQ.html"> Preguntas Frecuentes</a> </li>
+        <div class="container">
+            <div class="footerContainer">
+                <div class="footerMenu">
+                    <img src="../Img/Icon.png" alt="Logo" width="160" height="160" class="footerIcon">
+                    <div class="collapse navbar-collapse footerNav" id="navbarSupportedContent">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                      <a class="navbar menuText" href="../Index.html"> Inicio</a>
+                    </li>
+                    <li class="nav-item"> 
+                      <a class="nav-link active menuText" href="../Pages/about.html"> Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menuText" href="../Pages/productos.html"> Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menuText" href="../Pages/contacto.html"> Contacto</a>
+                    </li>
                 </ul>
-            </div>
+              </div>
+                </div>
                 <div class="Redes">
-                    <img src="../Img/InstagramLogo.jpg" alt="InstagramLogo" class="logoI"  width="130px" >
-                    <img src="../Img/FacebookLogo.png" alt="FacebookLogo" class="logo">
-                    <img src="../img/gmail.png" alt="GmailLogo" class="logoG">      
+                    <img src="../Img/Redes.jpg" alt="InstagramLogo" class="logos">
                 </div>          
-        </div>         
-</footer>
+            </div>  
+        </div>           
+    </footer>
 <script src="../js/bootstrap.min.js"> </script>
 </div>
 </body>
