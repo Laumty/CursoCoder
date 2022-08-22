@@ -3,6 +3,9 @@
 @import "./misc/normalize";
 @import "./misc/smallView.scss";
 @import "./misc/mediumView";
+/*Partials*/
+@import "./partials/header";
+@import "./partials/footer";
 /*Views*/
 @import "./views/about";
 @import "./views/contacto";
