@@ -1,0 +1,61 @@
+header{
+    background-color: rgb(25, 5, 50);
+}
+
+   
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;  
+}
+
+.navbar{
+    display: flex;
+    background-color: rgb(25, 05, 50);
+    border-radius: 10px;
+    flex-direction: row;
+}
+#navbarSupportedContent{
+    display:flex;
+    flex-direction: column;
+}
+
+nav {
+    display:flex;
+    flex-direction: row;
+    padding-bottom: 20px;  
+    justify-content: flex-start;
+    background-color: #15003b;
+    
+}
+.btn-outline-success{
+    color: white;
+    border: 1px solid;
+
+}
+
+.menuTitle{
+    color: white;
+    letter-spacing: 0.2em;
+    text-align: center;
+    animation-name: flip_text;
+    animation-duration: 4s;
+    
+}
+.Items{
+    display: flex;
+    flex-direction: row ;
+    justify-content: flex-end;
+
+}
+
+
+header a{
+    padding: 6px 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+}

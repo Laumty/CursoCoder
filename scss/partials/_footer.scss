@@ -1,0 +1,58 @@
+    /*Footers*/
+    
+    footer{
+        background-color: rgb(25, 5, 50);
+        display: flex;
+        flex-direction: column;
+        
+        &ul{
+            display:flex;
+            flex-direction:column;
+            text-align:center ;
+            padding-bottom :25px;
+        }
+        &Menu{
+            display:flex;
+            flex-direction: column; 
+            align-items: center;
+            gap: 80px;
+           
+        }
+        
+        &Icon{
+            margin-top: 40px;
+        }
+        &Items{
+            display: flex;
+            flex-direction: row ;
+            
+        }
+        &Text{
+            color: white;
+            font-size: 1em;
+            letter-spacing: 0.2em;
+        }
+        
+        
+        &Container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &a{
+            padding: 6px 12px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+     
+    }
+    
+    .Redes{
+        display: flex;
+        flex-direction: row ;
+        justify-content: flex-end;
+    }
+    .logoG{
+        position: relative;
+        top:10px
+     }
