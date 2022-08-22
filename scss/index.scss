@@ -1,7 +1,9 @@
-@import url();
+/*misc*/
 @import "./misc/variables";
 @import "./misc/normalize";
-
+@import "./misc/smallView.scss";
+@import "./misc/mediumView";
+/*Views*/
 @import "./views/about";
 @import "./views/contacto";
 @import "./views/faq";
