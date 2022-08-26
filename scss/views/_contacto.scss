@@ -1,83 +1,138 @@
-    /*contacto*/
-    .articleC{
-        border: 2px solid black;
-        padding: 10px 10px;
-        margin: 4vh auto;
-        width: 550px;
-        display: flex;
-        background: #15003b;
-        border-radius: 4px;
-        color: white;
-        border: 4px ;
-    }
-    .ImgText{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-        justify-items: center;
-        justify-content: center;
-        padding: 10px 100px;
-        margin-left: 140px;
-    }
-    .formContainer{
-        
-        width: 400px;
-        height: 1000px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: auto;
-    }
-    
-      .formInput {
-        width: 100%;
-        background: #24303c;
-        padding: 10px;
-        border-radius: 4px;
-        margin-bottom: 16px;
-        margin-left: 140px;
-        border: 1px solid #1f53c5;
-        font-size: 18px;
-        color: white;
-      }
-      
-      .articleC p {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        font-size: 1em;
-        line-height: 40px;
-        margin: 0px;
-      }
-      
-      .articleC a {
-        color: white;
-        text-decoration: none;
-      }
-      
-      .articleC a:hover {
-        color: white;
-        text-decoration: underline;
-      }
-      
-      .articleC .botons {
-        width: 100%;
-        background: #1f53c5;
-        border: none;
-        padding: 12px;
-        color: white;
-        margin: 16px 0;
-        font-size: 16px;
-      }
-      .formTextArea{
-        display: flex;
-        justify-content: center;
-        justify-items: center;
-        width: 100%;
-        margin-bottom: 15px;
-        background: #24303c;
-        color: white;
-        margin-left: 140px;
-    
-      }
+.articleC {
+	border: 2px solid black;
+	padding: 10px 10px;
+	margin: 4vh auto;
+	width: 550px;
+	display: flex;
+	background: #15003b;
+	border-radius: 4px;
+	color: white;
+	border: 4px;
+	border: 2px solid black;
+	padding: 10px 10px;
+	margin: 10px 10px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	justify-items: center;
+	align-items: center;
+	min-height: 1400px;
+	width: 800px;
+	background: #15003b;
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	border-radius: 4px;
+	font-family: 'calibri';
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+	border: 4px;
+	p {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		font-size: 1em;
+		line-height: 40px;
+		margin: 0px;
+	}
+	a {
+		color: white;
+		text-decoration: none;
+		color: white;
+		text-decoration: none;
+		&:hover {
+			color: white;
+			text-decoration: underline;
+			color: white;
+			text-decoration: underline;
+		}
+	}
+	.botons {
+		width: 100%;
+		background: #1f53c5;
+		border: none;
+		padding: 12px;
+		color: white;
+		margin: 16px 0;
+		font-size: 16px;
+		width: 100%;
+		background: #1f53c5;
+		border: none;
+		padding: 12px;
+		color: white;
+		margin: 16px 0;
+		font-size: 16px;
+	}
+	h2 {
+		text-align: center;
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+}
+.ImgText {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	justify-items: center;
+	justify-content: center;
+	padding: 10px 100px;
+	margin-left: 140px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: cefnter;
+	justify-items: center;
+	justify-content: center;
+	padding: 10px 100px;
+	margin-left: 40px;
+}
+.formContainer {
+	width: 400px;
+	height: 1000px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+}
+.formInput {
+	width: 100%;
+	background: #24303c;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	margin-left: 140px;
+	border: 1px solid #1f53c5;
+	font-size: 18px;
+	color: white;
+	width: 600px;
+	background: #24303c;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #1f53c5;
+	font-size: 18px;
+	color: white;
+	margin-left: 40px;
+}
+.formTextArea {
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	width: 100%;
+	margin-bottom: 15px;
+	background: #24303c;
+	color: white;
+	margin-left: 140px;
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	min-height: 200px;
+	min-width: 600px;
+	margin-left: 40px;
+	margin-bottom: 40px;
+	background: #24303c;
+	color: white;
+}

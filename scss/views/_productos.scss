@@ -1,41 +1,64 @@
  /*Productos*/
-    
- .contendor{
-    display: flex;
-    flex-direction:row ;
-    
+.contendor {
+	display: flex;
+	flex-direction: row;
 }
-.containerP{
-    display:flex;
-    flex-direction: column;
-    padding-bottom: 20px;  
-    align-items: center;
-    gap: 80px;
+.containerP {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 20px;
+	align-items: center;
+	gap: 80px;
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 20px;
+	align-items: center;
+	gap: 80px;
 }
 .catalogo {
-    display: grid;
-    grid-template-columns:300px 300px 300px;
-    grid-gap:5px;
-    min-height:900px;
-    padding-left: 10px;
-    
+	display: grid;
+	grid-template-columns: 300px 300px 300px;
+	grid-gap: 5px;
+	min-height: 900px;
+	padding-left: 10px;
+	display: grid;
+	grid-template-columns: 300px 300px 300px;
+	grid-gap: 1em;
+	height: 400px;
+	padding-left: 80px;
+	min-height: 1000px;
 }
 .box {
-    margin:auto;
-    border: 1px solid #000;
-    border-radius: 10px;
-    background-color: #3E989B;
-    background-color: var(--color);
-    
+	margin: auto;
+	border: 1px solid #000;
+	border-radius: 10px;
+	background-color: #3E989B;
+	background-color: var(--color);
+	margin: auto;
+	padding: 20px 10px;
+	border: 1px solid #000;
+	border-radius: 10px;
+	background-color: #3E989B;
+	background-color: var(--color);
+	max-width: 400px;
+	max-height: 500px;
 }
-.aside{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    flex-wrap: wrap;
-    border: 1px solid black;
-    padding: 10px 10px ;
-    margin: 10px 10px ; 
-    width: 720px;
-    height: 100px;
+.aside {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	flex-wrap: wrap;
+	border: 1px solid black;
+	padding: 10px 10px;
+	margin: 10px 10px;
+	width: 720px;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
+	width: 220px;
+	min-height: 950px;
+	align-items: flex-start;
 }

@@ -1,58 +1,109 @@
-    /*Footers*/
-    
-    footer{
-        background-color: rgb(25, 5, 50);
-        display: flex;
-        flex-direction: column;
-        
-        &ul{
-            display:flex;
-            flex-direction:column;
-            text-align:center ;
-            padding-bottom :25px;
-        }
-        &Menu{
-            display:flex;
-            flex-direction: column; 
-            align-items: center;
-            gap: 80px;
-           
-        }
-        
-        &Icon{
-            margin-top: 40px;
-        }
-        &Items{
-            display: flex;
-            flex-direction: row ;
-            
-        }
-        &Text{
-            color: white;
-            font-size: 1em;
-            letter-spacing: 0.2em;
-        }
-        
-        
-        &Container{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        &a{
-            padding: 6px 12px;
-            font-weight: bold;
-            text-decoration: none;
-        }
-     
-    }
-    
-    .Redes{
-        display: flex;
-        flex-direction: row ;
-        justify-content: flex-end;
-    }
-    .logoG{
-        position: relative;
-        top:10px
-     }
+footer {
+	background-color: rgb(25, 5, 50);
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(25, 5, 50);
+	display: flex;
+	flex-direction: row;
+	background-color: rgb(25, 5, 50);
+	display: flex;
+	flex-direction: column;
+	ul {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		padding-bottom: 25px;
+		display: flex;
+		flex-direction: row;
+		text-align: center;
+		padding-bottom: 25px;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		padding-bottom: 25px;
+	}
+	a {
+		padding: 6px 12px;
+		font-weight: bold;
+		text-decoration: none;
+		padding: 6px 12px;
+		font-weight: bold;
+		text-decoration: none;
+		padding: 6px 12px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+}
+.footerMenu {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 80px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 19.2px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 80px;
+}
+.footerIcon {
+	margin-top: 40px;
+	width: 160px;
+	height: 160px;
+	margin-top: 40px;
+}
+.footerItems {
+	display: flex;
+	flex-direction: row;
+	display: flex;
+	flex-direction: row;
+	padding-top: 50px;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+.footerText {
+	color: white;
+	font-size: 1em;
+	letter-spacing: 0.2em;
+	color: white;
+	font-size: 1em;
+	letter-spacing: 0.2em;
+	color: white;
+	font-size: 1.2em;
+	letter-spacing: 0.2em;
+	text-align: center;
+}
+.footerContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.Redes {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.logoG {
+	position: relative;
+	top: 10px;
+	width: 80px;
+	height: 84px;
+	margin-left: 30px;
+	position: relative;
+	top: 24px;
+}
