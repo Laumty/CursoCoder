@@ -1,15 +1,17 @@
+@import url(https://fonts.googleapis.com/css2?family=Piazzolla:opsz,wght@8..30,100&display=swap);
 /*misc*/
 @import "./misc/variables";
 @import "./misc/normalize";
-@import "./misc/smallView.scss";
-@import "./misc/mediumView";
+@import "./misc/mixins";
 /*Partials*/
 @import "./partials/header";
 @import "./partials/footer";
 /*Views*/
 @import "./views/about";
 @import "./views/contacto";
-@import "./views/faq";
 @import "./views/index";
 @import "./views//productos";
+@import "./views/faq";
+@import "./misc/mediumView";
+@import "./misc/smallView.scss";
 /**/

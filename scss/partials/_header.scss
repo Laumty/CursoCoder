@@ -26,27 +26,12 @@ header {
 	flex-direction: column;
 }
 nav {
-	display: flex;
-	flex-direction: row;
+	@include flex (row, wrap, flex-start, flex-start, 0 );
 	padding-bottom: 20px;
-	justify-content: flex-start;
 	background-color: #15003b;
-	display: flex;
-	flex-direction: row;
-	padding-bottom: 20px;
-	justify-content: flex-start;
-	background-color: #15003b;
-	display: flex;
-	flex-direction: row;
-	padding-bottom: 20px;
-	justify-content: flex-start;
-	background-color: #15003b;
+
 }
 .btn-outline-success {
-	color: white;
-	border: 1px solid;
-	color: white;
-	border: 1px solid;
 	color: white;
 	border: 1px solid;
 }
@@ -62,7 +47,5 @@ nav {
 	text-align: center;
 }
 .Items {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
+	@include flex (row, wrap, flex-end, flex-start, 0 );
 }
