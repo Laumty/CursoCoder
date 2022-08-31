@@ -12,3 +12,13 @@
     height: $largo;
     
 }
+@mixin flexall($dir, $fr, $jc, $ai, $ji,$ac, $gap){
+    display: flex ;
+    flex-flow: $dir $fr;
+    justify-content: $jc;
+    align-items: $ai;
+    justify-items: $ji;
+    align-content: $ac;
+    gap: $gap;
+    
+}

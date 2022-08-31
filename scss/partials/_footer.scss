@@ -1,60 +1,40 @@
-$style:(
-	color: white,
-	fuente: 1.2em,
-	espaciado: 0.2em,
-	padding: 1rem
-);
-footer {
-	background-color: rgb(25, 5, 50);
+footer{
+	width: 100%;
+	padding: 2rem 8%;
+	background-color: rgb(25, 5, 50);;
+	@include flex (column, nowrap, center, center, 0px );
+}
+.footerIcon{
+	height: 100px;
+	margin-bottom: 1rem;
+}
+.social{
 	display: flex;
-	flex-direction: column;
-	ul {
-		display: flex;
-		flex-direction: row;
-		text-align: center;
-		padding-bottom: 25px;
-	}
-	a {
-		padding: 6px 12px;
-		font-weight: bold;
-		text-decoration: none;
-	}
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 1rem;
+
 }
-.footerMenu {
-	@include flex (row, nowrap, flex-start, center, 80px );
+.footerMenu{
+	@extend .social;
+	list-style-type: none;
+	color: white;
+	font-size: 18px;
 }
-.footerIcon {
-	@include sizes(160px, 160px);
-	margin-top: 40px;
+.logos{
+	width: 150px;
 }
-.footerItems {
-	@include flex (row, wrap, flex-start, center, 0 );
+.menu-item{
+	margin: 1rem 1.5rem;
+	cursor: pointer;
+	opacity: 0.7;
+		:hover{opacity: 1;
+			
+		}
+}
+.copy{
+	color: #f2f2f2;
+	opacity: 0.2;
 	text-align: center;
-	padding-top: 50px;
-}
-.menuText {
-	color: map-get($style, color);
-	font-size: map-get($style, fuente);
-	letter-spacing: map-get($style, espaciado);
-	padding: map-get($style, padding);
-}
-.footerContainer {
-	@include flex (column, wrap, center, center, 0 );
-
-}
-.footerLinks{
-	@include flex (row, wrap, center, center, 20px );
-
-
-}
-.Redes {
-	@include flex (row, wrap, flex-end, center, 0 );
-}
-.logoG {
-	@include sizes(80px, 84px);
-	position: relative;
-	top: 10px;
-	margin-left: 30px;
-	position: relative;
-	top: 24px;
 }
