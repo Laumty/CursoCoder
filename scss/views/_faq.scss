@@ -8,9 +8,17 @@
 	padding-bottom: 40px;
 }
 .questionContainer {
+	padding-top: 150px;
+	padding-bottom: 250px;
+	display: flex;
+	flex-direction: column;
 	text-align: center;
 	min-height: 1200px;
 	width: 100vh;
+	justify-content: center;
+	justify-items: center;
+	align-items: center;
+	align-content: center;
 	.questionContainer--a {
 		letter-spacing: 1px;
 		font-size: large;

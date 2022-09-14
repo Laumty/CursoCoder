@@ -1,20 +1,22 @@
+
 #article {
 	@include flex (column, wrap, center, center, 0 );
 	text-align: center;
 	height: 900px;
 	padding: 40px 50px;
-	background-image: linear-gradient( 0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2) ) ,url(../Img/cuadroD.jpg);
+	background-image: linear-gradient( 0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2) );
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position: center center;
-	.boton {
-		@include flexall (column, wrap, flex-start, end, flex-start, flex-start, 0px);
-		margin-top: 400px;
-			
-		}
+	background-position: center center;	
+	.carousel{
+		justify-content: center;
+		justify-items: center;
+		align-items: center;
+		align-content: center;
+	}
 	}
 .ofertas {
-	@extend .boton;
+	@include flexall (column, wrap, flex-start, end, flex-start, flex-start, 0px);
 	color: antiquewhite;
 	text-shadow: #000 2px 5px;
 	font-size: 2em;
@@ -25,9 +27,8 @@
 	color: white;
 	text-align: center;
 	.container {
-		min-height: 700px;
+		min-height: 800px;
 		padding: 100px 60px;
-		margin: auto;
 		display: grid;
 
 	}
@@ -37,29 +38,41 @@
 		font-weight: bold;
 		text-align: center;
 		text-shadow: rgb(0, 0, 0) 4px 4px;
+		padding: 52px 0px 490px 0px ;
+			&:hover{
+				text-decoration: underline;
+				color: white;
+				font-size: 2.7em ;
+
+				
+			}
 	}
 }
 $Cards:(
-	cartaA:"cuadroA",
-	cartaB:"pelucheA",
-	cartaC:"figuraD",
-	cartaD:"conjunto2"
+	cartaA:"product_hk_bloomingadventure_designview_360x360",
+	cartaB:"product_HK_grimm_plush_itemview_360x360",
+	cartaC:"product_HK_mini_figurines_shade_itemview_360x360",
+	cartaD:"product_HK_quirrelquest_shirt_main"
 );
 .carta {
 	padding: 50px 0px;
+	margin: 0px 10px;
 	border-radius: 15px;
 	height: 600px;
-	width: 200px;
-	margin: 20px 20px;
+	min-width: 300px;
 	@each $key, $val in $Cards {
 		&#{$key} {
-			background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../Img/#{$val}.jpg);
+			background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../Img/#{$val}.webp);
 			background-repeat: no-repeat;
-			background-size: contain;
 			background-position: center center;
 			background-size: cover;
-
+				
 		}
+	}
+	&:hover{
+		height: 620px;
+		width: 210px;
+		border:1px solid white;
 	}
 		
 }

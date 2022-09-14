@@ -61,6 +61,10 @@ header {
     letter-spacing: 0.1em;
     text-align: center;
     font-size: 1.3em; }
+    header .menuText:hover {
+      text-decoration: underline;
+      color: white;
+      font-size: 1.5em; }
 
 .logo {
   display: flex;
@@ -106,8 +110,10 @@ footer {
   margin: 1rem 1.5rem;
   cursor: pointer;
   opacity: 0.7; }
-  .menu-item :hover {
-    opacity: 1; }
+  .menu-item:hover {
+    opacity: 1;
+    text-decoration: underline;
+    color: white; }
 
 .copy {
   color: #f2f2f2;
@@ -116,6 +122,9 @@ footer {
 
 /*Views*/
 /*about*/
+.home {
+  text-decoration: underline white; }
+
 #section {
   margin: auto;
   padding: auto;
@@ -240,21 +249,24 @@ footer {
   text-align: center;
   height: 900px;
   padding: 40px 50px;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../Img/cuadroD.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center; }
-  #article .boton, #article .ofertas {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: flex-start;
-    align-items: end;
-    justify-items: flex-start;
-    align-content: flex-start;
-    gap: 0px;
-    margin-top: 400px; }
+  #article .carousel {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center; }
 
 .ofertas {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: end;
+  justify-items: flex-start;
+  align-content: flex-start;
+  gap: 0px;
   color: antiquewhite;
   text-shadow: #000 2px 5px;
   font-size: 2em;
@@ -265,51 +277,58 @@ footer {
   color: white;
   text-align: center; }
   #articleDos .container {
-    min-height: 700px;
+    min-height: 800px;
     padding: 100px 60px;
-    margin: auto;
     display: grid; }
   #articleDos a {
     font-size: 2.5em;
     font-weight: bold;
     text-align: center;
-    text-shadow: black 4px 4px; }
+    text-shadow: black 4px 4px;
+    padding: 52px 0px 490px 0px; }
+    #articleDos a:hover {
+      text-decoration: underline;
+      color: white;
+      font-size: 2.7em; }
 
 .carta {
   padding: 50px 0px;
+  margin: 0px 10px;
   border-radius: 15px;
   height: 600px;
-  width: 200px;
-  margin: 20px 20px; }
+  min-width: 300px; }
   .cartacartaA {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Img/cuadroA.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Img/product_hk_bloomingadventure_designview_360x360.webp);
     background-repeat: no-repeat;
-    background-size: contain;
     background-position: center center;
     background-size: cover; }
   .cartacartaB {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Img/pelucheA.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Img/product_HK_grimm_plush_itemview_360x360.webp);
     background-repeat: no-repeat;
-    background-size: contain;
     background-position: center center;
     background-size: cover; }
   .cartacartaC {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Img/figuraD.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Img/product_HK_mini_figurines_shade_itemview_360x360.webp);
     background-repeat: no-repeat;
-    background-size: contain;
     background-position: center center;
     background-size: cover; }
   .cartacartaD {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Img/conjunto2.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Img/product_HK_quirrelquest_shirt_main.webp);
     background-repeat: no-repeat;
-    background-size: contain;
     background-position: center center;
     background-size: cover; }
+  .carta:hover {
+    height: 620px;
+    width: 210px;
+    border: 1px solid white; }
 
 /*Productos*/
 section {
   display: flex;
   flex-direction: row; }
+
+.home {
+  text-decoration: underline white; }
 
 .aside {
   border: 1px solid black;
@@ -323,8 +342,8 @@ section {
   color: white; }
 
 .productosP {
-  width: 300px;
-  height: 255px; }
+  width: 360px;
+  height: 360px; }
 
 .container {
   display: flex;
@@ -332,6 +351,22 @@ section {
 
 .nav-item {
   color: black; }
+
+.col:hover {
+  border: 1px solid black; }
+
+#selector {
+  color: black; }
+
+.album {
+  padding-left: auto;
+  padding-right: auto; }
+
+.card {
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center; }
 
 /*FaQ*/
 .Title {
@@ -343,9 +378,17 @@ section {
   padding-bottom: 40px; }
 
 .questionContainer {
+  padding-top: 150px;
+  padding-bottom: 250px;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   min-height: 1200px;
-  width: 100vh; }
+  width: 100vh;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center; }
   .questionContainer .questionContainer--a {
     letter-spacing: 1px;
     font-size: large;
